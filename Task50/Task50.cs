@@ -19,7 +19,7 @@ int[,] FillMatrix(int[,] matr) // метод заполнения и вывод�
     {
         for (int j = 0; j < matr.GetLength(1); j++)
         {
-            matr[i, j] = rnd.Next(-10, 11);
+            matr[i, j] = rnd.Next(0, 11);
             Console.Write($"{matr[i, j]} "); // вывод на экран результата генерации
         }
         Console.WriteLine();
