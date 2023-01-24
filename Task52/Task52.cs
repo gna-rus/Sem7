@@ -49,6 +49,6 @@ void OutputArray(int[] arr) // вывод на экран подсчета ср�
 }
 int[,] matrix = new int[3, 4];
 int[] array = new int[4];
-matrix = FillMatrix(matrix);
-array = SumMean(matrix);
-OutputArray(array);
+matrix = FillMatrix(matrix); // заполнение массива случайными числами и возвращенеие результата
+array = SumMean(matrix); // определение суммы всех элементов по столбцам
+OutputArray(array); // вывод результата
